@@ -11,3 +11,10 @@ window.onload = loadScript;
 
 // var latitude = position.coords.latitude;
 // var longitude = position.coords.longitude;
+
+$( ".gm-style-iw" ).parent().css( "background-color", "red" );
+
+$( "#map-canvas" ).on("click", ".gm-style-iw", function() {
+  alert("Hey!");
+
+});
